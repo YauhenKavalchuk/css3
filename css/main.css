@@ -1,0 +1,9 @@
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+  font-style: italic;
+  font-size: 16px;
+  border: 1px solid #000;
+}

@@ -8,6 +8,7 @@
 
 ## Полезные курсы и видео:
 - [HTML5 Basics](https://www.youtube.com/playlist?list=PLNkWIWHIRwMFtHHg0amAgocYP-kZypbY7)
+- [CSS Grid](https://www.youtube.com/playlist?list=PLNkWIWHIRwMHlq6yOP65F_rNH5wID1U21)
 - [CSS Inspiration](https://www.youtube.com/playlist?list=PLNkWIWHIRwMEosiVP_3B-h4fE7CIfZ7pI)
 
 ## Полезные ссылки:

@@ -1,5 +1,37 @@
-@import "main.css";
+* {
+  color: red;
+}
 
-h2 {
+p {
   color: green;
+}
+
+.heading1 {
+  text-decoration: underline;
+}
+
+.heading2 {
+  text-transform: uppercase;
+}
+
+p.fz20 {
+  font-size: 20px;
+}
+
+#heading,
+#heading2 {
+  font-size: 40px;
+  border: 1px solid #000;
+}
+
+q {
+  color: blue;
+}
+
+q.simple {
+  color: aqua;
+}
+
+body q.simple {
+  color: fuchsia;
 }

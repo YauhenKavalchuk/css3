@@ -7,15 +7,58 @@
   </head>
 
   <body>
-    <h1 class="simple">Hello world!</h1>
-    <p>Text paragraph1</p>
-    <p class="fz20">Text paragraph2</p>
-    <p class="fz20">Text paragraph3</p>
-    <h2 class="heading1 fz20">Heading 1!</h2>
-    <span class="heading2">Simple span element</span>
-    <h3 id="heading">Hello world!</h3>
-    <h3 id="heading2">Hello world!</h3>
-
-    <q class="simple">Hello webDev!</q>
+    <!-- element, element -->
+    <h1>Hello world!</h1>
+    <h2>Heading 1!</h2>
+    <span>Simple span element</span>
+    <hr />
+    <!-- element element -->
+    <div>
+      <p>Paragraph 1</p>
+    </div>
+    <p>Paragraph 1</p>
+    <hr />
+    <!-- element element element -->
+    <div>
+      <p>Super <span>Paragraph</span> 1</p>
+    </div>
+    <hr />
+    <!-- element > element -->
+    <ul>
+      <li>
+        <p><span>Span 1</span></p>
+      </li>
+      <li><span>Span 2</span></li>
+    </ul>
+    <span>Span 3</span>
+    <hr />
+    <!-- element + element -->
+    <ul>
+      <li>Li 1</li>
+      <li>Li 2</li>
+      <li>Li 3</li>
+    </ul>
+    <hr />
+    <!-- element ~ element -->
+    <p>Paragraph 1</p>
+    <p>Paragraph 2</p>
+    <br />
+    <p>Paragraph 3</p>
+    <p>Paragraph 4</p>
+    <hr />
+    <!-- element [attribute] -->
+    <a href="http://test1.com">Test Link 1</a>
+    <a href="http://test2.com" target="_blank">Test Link 1</a>
+    <a href="http://test3.org" target="_top">Test Link 1</a>
+    <hr />
+    <!-- element [attribute='value'] -->
+    <a href="http://test1.com">Test Link 1</a>
+    <a href="http://test2.com" target="_blank">Test Link 1</a>
+    <a href="http://test3.org" target="_top">Test Link 1</a>
+    <hr />
+    <!-- element [attribute^='value'] | element [attribute$='value'] | element [attribute*='value'] -->
+    <a href="http://123.com">Test Link 1</a>
+    <a href="http://4link56.com" target="_blank">Test Link 1</a>
+    <a href="http://678.jpg" target="_top">Test Link 1</a>
   </body>
 </html>

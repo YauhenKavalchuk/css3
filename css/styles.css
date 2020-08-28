@@ -1,45 +1,109 @@
-h1,
-h2,
-span {
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
   color: red;
 }
 
-div p {
-  color: green;
-}
-
-div p span {
-  color: blue;
-}
-
-ul li > span {
-  font-weight: bold;
-}
-
-ul li + li {
+a:visited {
   color: aqua;
 }
 
-br ~ p {
-  font-size: 30px;
+a:active {
+  color: green;
 }
 
-a[target] {
+a:focus {
+  font-weight: bold;
+}
+
+p::first-letter {
+  font-size: 40px;
+}
+
+p::first-line {
+  text-decoration: underline;
+}
+
+p::selection {
   background-color: yellow;
+  color: red;
+  font-size: 40px;
 }
 
-a[target="_blank"] {
-  background-color: blue;
+h1::before {
+  content: "This is ";
+  text-transform: uppercase;
 }
 
-a[href^="http://123"] {
-  background-color: aqua;
+h1::after {
+  content: " channel";
+  color: red;
 }
 
-a[href$=".jpg"] {
-  background-color: teal;
+.list1 li:first-child {
+  color: blue;
 }
 
-a[href*="link"] {
-  background-color: rebeccapurple;
+.list1 li:last-child {
+  color: green;
 }
+
+.list2 li:nth-child(even) {
+  color: blue;
+}
+
+.list2 li:nth-child(odd) {
+  color: green;
+}
+
+.list3 li:nth-child(2) {
+  color: blue;
+}
+
+.list3 li:nth-child(3) {
+  color: green;
+}
+
+.list3 li:nth-child(3n + 1) {
+  text-transform: uppercase;
+}
+
+.list3 li:nth-child(4n + 2) {
+  border: 1px solid black;
+}
+
+.text span:first-of-type {
+  color: red;
+}
+
+.text span:last-of-type {
+  color: green;
+}
+
+.text span:nth-of-type(2) {
+  border: 1px solid black;
+}
+
+.list4 li:not(.item) {
+  border: 1px solid blue;
+}
+
+/* Selectors test
+li							        ===> 1
+#main .item					    ===> 110
+h1 + *[href="test"] 		===> 11
+#test p 					      ===> 101
+li.item.main				    ===> 21
+#test						        ===> 100
+ul ol li.item				    ===> 13
+ul li						        ===> 2
+#test:not(.main)			  ===> 101
+ul ol+li 					      ===> 3
+a:hover						      ===> 11
+p:first-line				    ===> 2
+h2 strong					      ===> 2
+span.test ul li				  ===> 13
+*/

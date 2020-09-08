@@ -1,24 +1,40 @@
-body {
-  height: 1000px;
+li {
+  font-size: 2rem;
 }
 
-h4 {
-  border: 1px solid black;
-
-  position: absolute;
-  bottom: 150px;
+.main {
+  font-size: 2px;
 }
 
-.test {
-  border: 10px solid red;
-  /* width: 100px; */
+html {
+  font-size: 10px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100px;
   height: 100px;
-  display: inline-block;
   box-sizing: border-box;
+  position: absolute;
 
-  position: sticky;
-  top: 20px;
-  right: 20px;
-  min-width: 100px;
-  max-width: 300px;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+
+  z-index: 1;
+}
+
+.modal {
+  border: 2px solid black;
+  width: 300px;
+  height: 100px;
+  background-color: cornflowerblue;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+
+  z-index: 2;
+  overflow: hidden;
 }

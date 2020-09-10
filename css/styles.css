@@ -1,40 +1,37 @@
-li {
-  font-size: 2rem;
-}
-
-.main {
-  font-size: 2px;
-}
-
-html {
-  font-size: 10px;
-}
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+.wrapper,
+.wrapper2,
+.item {
+  padding: 20px;
   color: white;
-  width: 100px;
-  height: 100px;
-  box-sizing: border-box;
-  position: absolute;
-
-  width: 100vw;
-  height: 100vh;
-  top: 0;
-  left: 0;
-
-  z-index: 1;
 }
 
-.modal {
-  border: 2px solid black;
-  width: 300px;
-  height: 100px;
-  background-color: cornflowerblue;
-  font-size: 20px;
-  color: white;
-  position: absolute;
+.wrapper {
+  background-color: grey;
+}
 
-  z-index: 2;
-  overflow: hidden;
+.wrapper:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.wrapper2 {
+  background-color: green;
+}
+
+.item {
+  float: left;
+  width: 150px;
+}
+
+.item1 {
+  background-color: crimson;
+}
+
+.item2 {
+  background-color: cyan;
+}
+
+.item3 {
+  background-color: blueviolet;
 }

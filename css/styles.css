@@ -1,45 +1,31 @@
-/* @font-face {
-  font-family: "Roboto";
-  src: url("/fonts/Roboto-Regular.ttf") format("truetype"),
-       url("/fonts/Roboto-Regular.woff") format("woff"),
-       url("/fonts/Roboto-Regular.woff2") format("woff2"),
-       url("/fonts/Roboto-Regular.otf") format("opentype");
-  font-weight: 500;
-  font-style: normal;
-}
+.example {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 20px;
 
-@font-face {
-  font-family: "RobotoBoldItalic";
-  src: url("/fonts/Roboto-BoldItalic.ttf") format("truetype"),
-       url("/fonts/Roboto-BoldItalic.woff") format("woff"),
-       url("/fonts/Roboto-BoldItalic.woff2") format("woff2"),
-       url("/fonts/Roboto-BoldItalic.otf") format("opentype");
-  font-weight: 900;
-  font-style: italic;
-} */
+  /* border-width: 10px;
+  border-style: solid;
+  border-color: red; */
 
-@font-face {
-  font-family: "Roboto";
-  src: url("/fonts/Roboto-Regular.ttf") format("truetype");
-  font-weight: 500;
-  font-style: normal;
-}
+  border: 10px solid red;
 
-body {
-  font-family: "Roboto", Arial, Helvetica, sans-serif;
+  border-right: none;
+  border-right-style: none;
+
+  border-bottom-width: 20px;
+  border-left-color: blue;
 }
 
 h1 {
-  color: blueviolet;
-  text-decoration: underline overline line-through none;
-  letter-spacing: 2px;
-  word-spacing: 10px;
-  line-height: 100px;
-  text-transform: uppercase;
-  text-align: center;
+  text-shadow: 1px 2px 5px red, -1px -2px 5px green;
 }
 
-p {
-  text-align: justify;
-  text-indent: 20px;
+.shadow {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 20px;
+
+  box-shadow: inset 1px 2px 5px blue, inset -1px -2px 5px aqua;
 }

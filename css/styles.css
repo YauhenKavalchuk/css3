@@ -4,28 +4,26 @@
   background-color: grey;
   margin: 20px;
 
-  /* border-width: 10px;
-  border-style: solid;
-  border-color: red; */
+  /* border-radius: 50px 40px 30px 20px; */
 
-  border: 10px solid red;
+  /* border-radius: 20px/40px; */
 
-  border-right: none;
-  border-right-style: none;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 20px;
+}
 
-  border-bottom-width: 20px;
-  border-left-color: blue;
+ul li {
+  list-style-type: disc;
+  list-style-position: inside;
+  /* list-style-image: url(https://image.flaticon.com/icons/png/128/66/66738.png); */
 }
 
 h1 {
-  text-shadow: 1px 2px 5px red, -1px -2px 5px green;
-}
-
-.shadow {
-  width: 100px;
-  height: 100px;
-  background-color: grey;
-  margin: 20px;
-
-  box-shadow: inset 1px 2px 5px blue, inset -1px -2px 5px aqua;
+  /* color: red; */
+  /* color: #ff0000; */
+  /* color: rgb(255, 0, 0); */
+  /* color: hsl(0, 100%, 50%); */
+  color: rgba(255, 0, 0, 0.5);
 }

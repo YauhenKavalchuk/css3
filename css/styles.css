@@ -1,16 +1,24 @@
 body {
   padding: 0;
   margin: 0;
-
-  background-color: blue;
 }
 
-.wrapper {
-  min-height: 100vh;
-  width: 100%;
+img {
+  transition: all 1s ease;
+}
 
-  /* background-image: linear-gradient(45deg, red 10%, orange 50%, yellow 70%, green, aqua, blue); */
-  /* background-image: repeating-linear-gradient(45deg, yellow 25px, black 25px, black 50px, yellow 50px, yellow 75px, black 75px); */
-
-  background-image: repeating-radial-gradient(circle, aqua 20px, red 80px);
+img:hover {
+  /* filter: blur(2px); */
+  /* filter: drop-shadow(5px 6px 4px rgba(0, 0, 0, 0.5)); */
+  /* filter: grayscale(80%); */
+  /* filter: brightness(150%); */
+  /* filter: contrast(150%); */
+  /* filter: hue-rotate(180deg); */
+  /* filter: hue-rotate(180deg); */
+  /* filter: invert(100%); */
+  /* filter: saturate(165%); */
+  /* filter: sepia(100%); */
+  /* filter: opacity(50%); */
+  /* filter: url(#toSvg); */
+  filter: blur(2px) brightness(150%);
 }

@@ -7,30 +7,21 @@ body {
   align-items: center;
 }
 
-.wrapper {
+.example {
   border: 2px solid black;
-  height: 169px;
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
 
-  /* overflow: hidden; */
+  /* transition-duration: 500ms, 2s;
+  transition-property: transform, background-color;
+  transition-delay: 0, 10s;
+  transition-timing-function: linear; */
+
+  transition: all 1s ease .5s;
 }
 
-img {
-  transition: all 1s ease;
-  transform-origin: 50px 100px;
-}
-
-img:hover {
-  /* transform: rotate(360deg); */
-  /* transform: scale(0.2, 1.2); */
-  /* transform: scaleX(0.2); */
-  /* transform: scaleY(1.2); */
-  /* transform: scale(1.2); */
-  /* transform: translate(-50px, -80px); */
-  /* transform: translateX(50px); */
-  /* transform: translateY(80px); */
-  /* transform: skew(0, 45deg); */
-  /* transform: skewX(45deg); */
-  /* transform: skewY(45deg); */
-  /* transform: rotate(10deg) scale(1.2) skew(10deg); */
-  transform: rotate(90deg);
+.example:hover {
+  background-color: red;
+  transform: scale(1.2);
 }

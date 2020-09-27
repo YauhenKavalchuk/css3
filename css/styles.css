@@ -22,6 +22,7 @@ html {
   height: 100vh;
   top: 0;
   left: 0;
+  /* width: calc(100px + 200px + 1rem); */
 
   z-index: 1;
 }

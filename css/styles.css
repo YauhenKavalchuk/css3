@@ -13,15 +13,29 @@ body {
   height: 200px;
   background-color: aqua;
 
-  /* transition-duration: 500ms, 2s;
-  transition-property: transform, background-color;
-  transition-delay: 0, 10s;
-  transition-timing-function: linear; */
+  /* animation-name: myAnimation;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  /* animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-fill-mode: forwards;
+  animation-delay: 3s; */
 
-  transition: all 1s ease .5s;
+  animation: bgChange 5s linear infinite, sizeChange 5s linear infinite;
 }
 
 .example:hover {
-  background-color: red;
-  transform: scale(1.2);
+  animation-play-state: paused;
+}
+
+@keyframes bgChange {
+  from { background-color: aqua; }
+  50% { background-color: red; }
+  to { background-color: green; }
+}
+
+@keyframes sizeChange {
+  from { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  to { transform: scale(1); }
 }

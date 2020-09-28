@@ -15,6 +15,13 @@
 
   border-bottom-width: 20px;
   border-left-color: blue;
+
+  outline: 10px solid aqua;
+}
+
+button:focus,
+input:focus {
+  outline: 2px solid aqua;
 }
 
 h1 {

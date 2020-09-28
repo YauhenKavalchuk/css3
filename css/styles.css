@@ -7,35 +7,20 @@ body {
   align-items: center;
 }
 
-.example {
-  border: 2px solid black;
-  width: 200px;
-  height: 200px;
-  background-color: aqua;
+table,
+table * {
+  max-width: 600px;
+  border: 1px solid black;
+  border-collapse: separate;
+  /* border-spacing: 10px; */
+  caption-side: top;
 
-  /* animation-name: myAnimation;
-  animation-duration: 5s;
-  animation-timing-function: linear;
-  /* animation-iteration-count: infinite;
-  animation-direction: reverse;
-  animation-fill-mode: forwards;
-  animation-delay: 3s; */
-
-  animation: bgChange 5s linear infinite, sizeChange 5s linear infinite;
+  min-width: 100px;
+  text-align: right;
+  vertical-align: baseline;
+  empty-cells: hide;
 }
 
-.example:hover {
-  animation-play-state: paused;
-}
-
-@keyframes bgChange {
-  from { background-color: aqua; }
-  50% { background-color: red; }
-  to { background-color: green; }
-}
-
-@keyframes sizeChange {
-  from { transform: scale(1); }
-  50% { transform: scale(1.2); }
-  to { transform: scale(1); }
+table:hover {
+  cursor: pointer;
 }

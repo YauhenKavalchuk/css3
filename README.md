@@ -16,6 +16,7 @@
 - [Normalize CSS or CSS Reset?!](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
 - [Color Scheme](https://colorscheme.ru/html-colors.html)
 - [Cubic-Bezier animation tool](https://matthewlein.com/tools/ceaser)
+- [Cursors collection](https://csscursor.info/)
 
 ## Быстрый старт
 - Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/css3-basics.git`

@@ -7,20 +7,23 @@ body {
   align-items: center;
 }
 
-table,
-table * {
-  max-width: 600px;
+.example {
+  font-size: 30px;
   border: 1px solid black;
-  border-collapse: separate;
-  /* border-spacing: 10px; */
-  caption-side: top;
+  width: 150px;
+  min-height: 150px;
 
-  min-width: 100px;
-  text-align: right;
-  vertical-align: baseline;
-  empty-cells: hide;
+  /* overflow: hidden; */
+  /* text-overflow: ellipsis; */
+  /* white-space: nowrap; */
+  word-wrap: break-word;
+  word-break: break-all;
+  writing-mode: vertical-rl;
 }
 
-table:hover {
-  cursor: pointer;
+.container {
+  column-count: 3;
+  column-rule: 1px solid black;
+  column-width: 300px;
+  column-gap: 100px;
 }

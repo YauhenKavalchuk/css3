@@ -1,29 +1,26 @@
 body {
-  padding: 0;
+  padding: 10px 30px;
   margin: 0;
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  background-color: lightgrey;
+  font-size: 24px;
+  font-family: monospace;
 }
 
-.example {
-  font-size: 30px;
-  border: 1px solid black;
-  width: 150px;
-  min-height: 150px;
-
-  /* overflow: hidden; */
-  /* text-overflow: ellipsis; */
-  /* white-space: nowrap; */
-  word-wrap: break-word;
-  word-break: break-all;
-  writing-mode: vertical-rl;
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body {
+    background-color: aqua;
+  }
 }
 
-.container {
-  column-count: 3;
-  column-rule: 1px solid black;
-  column-width: 300px;
-  column-gap: 100px;
+@media screen and (orientation: portrait) {
+  h1 {
+    display: none;
+  }
+}
+
+@media print {
+  body {
+    color: blue;
+  }
 }

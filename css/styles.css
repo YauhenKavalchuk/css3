@@ -1,26 +1,65 @@
 body {
   padding: 10px 30px;
   margin: 0;
-  height: 100vh;
   background-color: lightgrey;
   font-size: 24px;
   font-family: monospace;
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-  body {
-    background-color: aqua;
-  }
+input {
+  font-size: 24px;
+  padding: 5px 10px;
+
+  color: red;
 }
 
-@media screen and (orientation: portrait) {
-  h1 {
-    display: none;
-  }
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: blue;
+  opacity: 1; /* Firefox */
 }
 
-@media print {
-  body {
-    color: blue;
-  }
+::-ms-input-placeholder {
+  /* Edge */
+  color: blue;
+}
+
+:-ms-input-placeholder {
+  /* IE 10-11 */
+  color: blue;
+}
+
+::-webkit-scrollbar {
+  width: 25px;
+  background: #101124;
+}
+
+::-webkit-scrollbar-track {
+  border: 5px solid rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, #00ffa1, #00ffff);
+  border-radius: 15px;
+}
+
+button {
+  width: 200px;
+  height: 79px;
+  background-image: url(./23.png);
+  background-position: top;
+  background-size: cover;
+  text-indent: -9999px;
+  border: none;
+  background-color: transparent;
+  outline: grey;
+}
+
+button:hover {
+  background-position: center;
+}
+
+button:active {
+  background-position: bottom;
 }

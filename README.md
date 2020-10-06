@@ -14,6 +14,7 @@
 ## Полезные ссылки:
 - [Can I Use](https://caniuse.com)
 - [Normalize CSS or CSS Reset?!](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
+- [Browser Internals](https://developers.google.com/web/updates/2012/04/Round-up-of-Web-Browser-Internals-Resources)
 - [Color Scheme](https://colorscheme.ru/html-colors.html)
 - [Cubic-Bezier animation tool](https://matthewlein.com/tools/ceaser)
 - [Cursors collection](https://csscursor.info/)

@@ -19,8 +19,10 @@ table * {
   text-align: right;
   vertical-align: baseline;
   empty-cells: hide;
+  cursor: pointer;
 }
 
-table:hover {
-  cursor: pointer;
+.dis,
+td {
+  pointer-events: none;
 }

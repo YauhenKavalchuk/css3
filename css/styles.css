@@ -4,5 +4,6 @@
 
 .second {
   /* visibility: hidden; */
-  opacity: 0;
+  /* opacity: 0; */
+  color: transparent;
 }

@@ -3,15 +3,22 @@
 ### Описание курса:
 В данном видеокурсе мы с вами рассмотрим CSS, или каскадных таблиц стилей. Начнём с основ: простые и составные селктора, псевдоклассы и псевдоэлементы, похиционирование, блочная модель и т.д. А так же разберём свойства добавленные в третьей версии спецификации: границы и скругления, тени, градиенты, фильтры, трансформации, анимации и т.д. По окончанию курса вы получите всю необходимую теоретическую базу по стилизации любого элемента на странице включая курсор и скролл.
 
-## Используемые инструменты:
+### Поддержать развитие канала:
+[<img alt="webDev | YouTube Sponsor" src="https://img.shields.io/badge/Become a sponsor-F70000.svg?&style=for-the-badge&logo=youtube&logoColor=fff" />][sponsor]
+[<img alt="webDev | Patreon" src="https://img.shields.io/badge/Become a patron-EF6451.svg?&style=for-the-badge&logo=patreon&logoColor=fff" />][patron]
+
+---
+
+### Используемые ресурсы и инструменты:
 - [Visual Studio Code (редактор кода)](https://code.visualstudio.com)
 
-## Полезные курсы и видео:
+### Полезные курсы и видео:
 - [HTML5 Basics](https://www.youtube.com/playlist?list=PLNkWIWHIRwMFtHHg0amAgocYP-kZypbY7)
 - [CSS Grid](https://www.youtube.com/playlist?list=PLNkWIWHIRwMHlq6yOP65F_rNH5wID1U21)
+- [CSS Felxbox](https://www.youtube.com/playlist?list=PLNkWIWHIRwMG0EUBS8rvTRVNL9IcxcawW)
 - [CSS Inspiration](https://www.youtube.com/playlist?list=PLNkWIWHIRwMEosiVP_3B-h4fE7CIfZ7pI)
 
-## Используемые ресурсы:
+### Полезные ссылки:
 - [Can I Use](https://caniuse.com)
 - [Normalize CSS or CSS Reset?!](https://medium.com/@elad/normalize-css-or-css-reset-9d75175c5d1e)
 - [Browser Internals](https://developers.google.com/web/updates/2012/04/Round-up-of-Web-Browser-Internals-Resources)
@@ -21,12 +28,19 @@
 - [Cursors collection](https://csscursor.info/)
 - [JS & CSS Date pickers](https://www.cssscript.com/tag/date-picker/)
 
-## Быстрый старт
+---
+
+### Быстрый старт:
 - Клонируйте репозиторий: `git clone https://github.com/YauhenKavalchuk/css3-basics.git`
 - Перейдите в папку с проектом `cd css3-basics`
-- Перейдите в нужную ветку соответствующую уроку: `git checkout lesson_01`, `git checkout lesson_02` и т.д.
+- Перейдите в нужную ветку соответствующую уроку:
+  - `git checkout lesson_01`
+  - `git checkout lesson_02`
+  - `git checkout lesson_10` и т.д.
 
-## Список уроков
+---
+
+### Список уроков:
 - [#0 Введение (Introduction)](https://youtu.be/8pQKDVRc0T8)
 - [#1 Базовый синтаксис и применение стилей (Base Syntax & CSS Applying)](https://youtu.be/qxAnaoPI8cE)
 - [#2 Простые селекторы (Simple Selectors)](https://youtu.be/vnmfn31G988)
@@ -52,23 +66,19 @@
 - [#22 Медиазапросы (Media queries)](https://youtu.be/lv47xClJolw)
 - [#23 Стилизация плейсхолдера и скролла, CSS-спрайты (Placeholder, Scrollbar & Sprites)](https://youtu.be/_eO1urQ71Lw)
 
-## Автор курса в социальных сетях:
+---
 
-[<img align="left" alt="webDev | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
-[<img align="left" alt="webDev | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
-[<img align="left" alt="webDev | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="webDev | VK" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/vk.svg" />][vk]
-[<img align="left" alt="webDev | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]&nbsp;
-
-
-## Поддержать канал:
-
-<a href="https://www.patreon.com/YauhenKavalchuk" target="_blank">
-  <img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="160">
-</a>
+### Связаться со мной:
+[<img alt="webDev | YouTube" src="https://img.shields.io/badge/youtube-FF0000.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />][youtube]
+[<img alt="webDev | Instagram" src="https://img.shields.io/badge/instagram-E4405F.svg?&style=for-the-badge&logo=Instagram&logoColor=white" />][instagram]
+[<img alt="webDev | LinkedIn" src="https://img.shields.io/badge/linkedin-0077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />][linkedin]
+[<img alt="webDev | Twitter" src="https://img.shields.io/badge/twitter-1DA1F2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][twitter]
+[<img alt="webDev | VK" src="https://img.shields.io/badge/vk-4680C2.svg?&style=for-the-badge&logo=Twitter&logoColor=white" />][vk]
 
 [youtube]: https://youtube.com/YauhenKavalchuk
 [instagram]: https://instagram.com/YauhenKavalchuk
 [linkedin]: https://linkedin.com/in/YauhenKavalchuk
 [vk]: https://vk.com/YauhenKavalchuk
 [twitter]: https://twitter.com/YauhenKavalchuk
+[sponsor]: https://www.youtube.com/channel/UCE9ODjNIkOHrnSdkYWLfYhg/join
+[patron]: https://www.patreon.com/YauhenKavalchuk
